@@ -13,7 +13,7 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOrigin("http://localhost:4200"); // Permitir solicitudes desde este origen
+        config.addAllowedOrigin("https://master--cheery-torrone-832c2a.netlify.app"); // Permitir solicitudes desde este origen
         config.addAllowedMethod("*"); // Permitir cualquier método (GET, POST, etc.)
         config.addAllowedHeader("*"); // Permitir cualquier encabezado
         source.registerCorsConfiguration("/**", config); // Aplicar la configuración a todas las rutas
