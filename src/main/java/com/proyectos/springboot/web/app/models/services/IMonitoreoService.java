@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.proyectos.springboot.web.app.models.entity.Monitoreo;
 
+/* interface para acceder al servicio inyectado*/
 public interface IMonitoreoService {
 	public List<Monitoreo> findAll();
 	public void eliminarCordenada(Long id);

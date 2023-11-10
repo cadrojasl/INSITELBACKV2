@@ -7,7 +7,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+/* clase entity para mapear la tabla de base de datos */
 @Entity
 @Table(name = "Monitoreo")
 public class Monitoreo implements Serializable{
